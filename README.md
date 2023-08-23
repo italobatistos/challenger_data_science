@@ -60,7 +60,7 @@ Este resultado fornece uma avaliação do desempenho do modelo ARIMA em suas pre
 * **Alisson Louly**
 * **Leo Michel**
 * **Lucas Dias**
-
+* **Luzia Souza**
 ## Links:
 
 
