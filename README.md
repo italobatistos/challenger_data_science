@@ -20,12 +20,12 @@ Prever o crescimento do índice do PIB de cada país nos anos 2024-2028.
 
 ## Fluxo de Análise:
 
- * 1. Importe as bibliotecas necessárias
- * 2. Leia e entenda os dados
- * 3. Análise Exploratória de Dados
- * 4. Preparação de Dados
- * 5. Decomposição da série temporal
- * 6. Criando e avaliando a previsão de séries temporais
+ * Importe as bibliotecas necessárias
+ * Leia e entenda os dados
+ * Análise Exploratória de Dados
+ * Preparação de Dados
+ * Decomposição da série temporal
+ * Criando e avaliando a previsão de séries temporais
 
 ## Desempenho do Modelo ARIMA
 
@@ -33,11 +33,11 @@ Foi realizado um estudo de previsão de séries temporais utilizando o modelo AR
 
 **Configuração do Modelo:**
 
-Modelo: ARIMA
+Modelo: **ARIMA**
 
 Método de Otimização de Parâmetros: **auto_arima**
 
-Métrica de Avaliação: MAPE (Mean Absolute Percentage Error)
+Métrica de Avaliação: **MAPE (Mean Absolute Percentage Error)**
 
 **Resultado:**
 
