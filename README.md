@@ -41,13 +41,13 @@ Métrica de Avaliação: **MAPE (Mean Absolute Percentage Error)**
 
 **Resultado:**
 
-A média de MAPE obtida para as previsões utilizando o modelo ARIMA foi de 30%.
+A média de MAPE obtida para as previsões utilizando o modelo ARIMA foi de 31%.
 
 **Observações:**
 
   * O modelo ARIMA foi escolhido devido à sua capacidade de lidar com séries temporais univariadas e à otimização automática de parâmetros.
   * O MAPE é uma métrica comumente usada para avaliar o desempenho de modelos de previsão, representando a porcentagem média de erro absoluto em relação aos valores reais.
-  * O valor de MAPE de 30% indica que, em média, as previsões do modelo ARIMA têm um erro absoluto médio de 30% em relação aos valores reais.
+  * O valor de MAPE de 31% indica que, em média, as previsões do modelo ARIMA têm um erro absoluto médio de 31% em relação aos valores reais.
     
 Este resultado fornece uma avaliação do desempenho do modelo ARIMA em suas previsões e pode ser usado para tomar decisões informadas sobre sua utilidade em cenários específicos.
 
