@@ -1,38 +1,59 @@
 # Desafio Cientista de Dados - Séries temporais
 
-**GDP index growth for the years 2024-2028**
+**Crescimento do índice do GDP para os anos 2024-2028**
 
-Usando o algoritmo de recomendação RandomForestRegressor, conseguimos atingir um indice MAPE de 10% a 12%  para as previsões.
+## Contextualização:
 
-Isso foi alcançado usando um sistema de recomendação de otimização de hiperparâmetros no qual é o processo de encontrar o melhor conjunto de hiperparâmetros para um modelo de aprendizado de máquina onde envolve experimentar diferentes combinações de hiperparâmetros e avaliar o desempenho do modelo usando um conjunto de dados de validação ou uma técnica como validação cruzada.
+_""Na maioria dos anos desde 1980, o crescimento do PIB global tem sido relativamente consistente, geralmente flutuando entre dois e cinco por cento de crescimento de ano para ano. As exceções mais notáveis ​​​​a isso foram durante a Grande Recessão em 2009 e novamente em 2020 durante o Covid- 19, onde a economia global realmente encolheu em ambos os anos. Enquanto a economia mundial continua a lidar com o impacto econômico da pandemia, bem como as consequências da invasão russa da Ucrânia em 2022, o futuro permanece incerto, porém atual estimativas sugerem que o crescimento anual retornará a valores estáveis ​​de cerca de 3% em 2028."_
 
-## Project Proposal
+_Aaron O'Neill, 10 de maio de 2023."_
 
-_"In most years since 1980, global GDP growth has been relatively consistent, generally fluctuating between two and five percent growth from year to year. The most notable exceptions to this were during the Great Recession in 2009, and again in 2020 during the Covid-19 pandemic, where the global economy actually shrank in both of these years. As the world economy continues to deal with the economic impact of the pandemic, as well as the fallout from Russia's invasion of Ukraine in 2022, the future remains uncertain, however current estimates suggest that annual growth will return to steady figures of around 3 percent in 2028."_
+## Desafio :
 
-_Aaron O'Neill, May 10, 2023_
-
-The challenge aims to evaluate the development of an EDA (exploratory data analysis) and the knowledge/insights related to a classic type of data science problem: time series. For this, I would like to see the growth of the GDP index of each country in the years 2024-2028, comparing them later with that predicted by Statistica. In addition, it is necessary to replace the "no data" fields with numerical values, using the inferences of your choice.
+O desafio visa avaliar o desenvolvimento de um EDA (análise exploratória de dados) e os conhecimentos/insights relacionados a um tipo clássico de problema de ciência de dados: séries temporais. Para isso, gostaria de ver o crescimento do índice do PIB de cada país nos anos 2024-2028, comparando-os posteriormente com o previsto pelo Statistica. Além disso, é necessário substituir os campos "no data" por valores numéricos, utilizando as inferências de sua preferência.
 
 -------------------
 
-## Aim
+## Objetivo :
 
-O trabalho foi dividido em etapas para uma melhor organização e visualização dos processos.
+Prever o crescimento do índice do PIB de cada país nos anos 2024-2028.
 
-* **Import the required libraries**
-* **Read and understand the data**
-* **Exploratory Data Analysis**
-* **Displaying dataframe graphics**
-* **Data Preparation**
-* **Modeling**
-* **Conclusion**
+## Fluxo de Análise:
 
-## Author
+ * 1. Importe as bibliotecas necessárias
+ * 2. Leia e entenda os dados
+ * 3. Análise Exploratória de Dados
+ * 4. Preparação de Dados
+ * 5. Decomposição da série temporal
+ * 6. Criando e avaliando a previsão de séries temporais
+
+## Desempenho do Modelo ARIMA
+
+Foi realizado um estudo de previsão de séries temporais utilizando o modelo ARIMA (AutoRegressive Integrated Moving Average) com otimização automática de parâmetros usando a função auto_arima.
+
+**Configuração do Modelo:**
+
+Modelo: ARIMA
+Método de Otimização de Parâmetros: **auto_arima**
+Métrica de Avaliação: MAPE (Mean Absolute Percentage Error)
+
+**Resultado:**
+
+A média de MAPE obtida para as previsões utilizando o modelo ARIMA foi de 30%.
+
+**Observações:**
+
+O modelo ARIMA foi escolhido devido à sua capacidade de lidar com séries temporais univariadas e à otimização automática de parâmetros.
+O MAPE é uma métrica comumente usada para avaliar o desempenho de modelos de previsão, representando a porcentagem média de erro absoluto em relação aos valores reais.
+O valor de MAPE de 30% indica que, em média, as previsões do modelo ARIMA têm um erro absoluto médio de 30% em relação aos valores reais.
+Este resultado fornece uma avaliação do desempenho do modelo ARIMA em suas previsões e pode ser usado para tomar decisões informadas sobre sua utilidade em cenários específicos.
+
+## Autor
 
 * [Italo Batista](https://www.linkedin.com/in/italobatista/)
 
-## Acknowledgements
+## Reconhecimentos
 
-* **Alisson Louly** - *Springboard mentor*
-* **Leo Michel** - **
+* **Alisson Louly**
+* **Leo Michel**
+* **Lucas Dias**
