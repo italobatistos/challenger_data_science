@@ -60,3 +60,11 @@ Este resultado fornece uma avaliação do desempenho do modelo ARIMA em suas pre
 * **Alisson Louly**
 * **Leo Michel**
 * **Lucas Dias**
+
+## Links:
+
+
+*   https://analisemacro.com.br/data-science/python/estacionariedade_series_temporais/#:~:text=Caso%203%3A%20KPSS%20indica%20estacionariedade,a%20nova%20s%C3%A9rie%20%C3%A9%20estacion%C3%A1ria.
+*   http://leg.ufpr.br/~lucambio/STemporais/STemporaisIII.html
+*   https://medium.com/analytics-vidhya/time-series-forecasting-a-complete-guide-d963142da33f
+
