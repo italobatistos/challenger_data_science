@@ -51,6 +51,22 @@ A média de MAPE obtida para as previsões utilizando o modelo ARIMA foi de 31%.
     
 Este resultado fornece uma avaliação do desempenho do modelo ARIMA em suas previsões e pode ser usado para tomar decisões informadas sobre sua utilidade em cenários específicos.
 
+Além do resultado do MAPE, é importante analisar o desempenho do modelo ARIMA por meio dos gráficos gerados. Abaixo estão algumas observações sobre o resultado dos gráficos obtidos:
+
+**Comparação Visual:** Os gráficos de previsão versus valores reais permitem uma comparação visual direta do desempenho do modelo. Se as previsões estiverem bem alinhadas com os valores reais, isso é um indicativo positivo do modelo.
+
+**Tendências e Sazonalidade:** Ao observar os gráficos, é importante verificar se o modelo ARIMA capturou com precisão as tendências e sazonalidades nos dados. Isso é crucial para fazer previsões precisas.
+
+**Erros e Discrepâncias:** Em alguns casos, é possível observar discrepâncias significativas entre as previsões e os valores reais. Essas discrepâncias podem ser áreas de melhoria no modelo. É importante examinar essas áreas com cuidado para entender a causa das diferenças.
+
+**Variações ao Longo do Tempo:** Os gráficos podem mostrar se o desempenho do modelo é consistente ao longo do tempo ou se há variações significativas em diferentes períodos. Essa análise ajuda a identificar se o modelo é mais eficaz em determinadas condições ou períodos.
+
+**Impacto do MAPE:** O MAPE, como mencionado, fornece uma métrica quantitativa do desempenho médio do modelo. É útil para resumir o erro médio em uma única medida, mas também é importante considerar como esse erro se distribui ao longo do tempo.
+
+Lembrando que o MAPE de 37% indica um erro médio absoluto de 37% em relação aos valores reais. Isso pode ser considerado alto ou baixo dependendo do contexto específico da aplicação e das expectativas de precisão.
+
+Portanto, além do MAPE, a análise visual dos gráficos é fundamental para avaliar a capacidade do modelo ARIMA de fornecer previsões precisas e identificar possíveis áreas de melhoria ou ajuste do modelo.
+
 ## Autor
 
 * [Italo Batista](https://www.linkedin.com/in/italobatista/)
