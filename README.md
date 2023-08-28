@@ -77,6 +77,8 @@ Portanto, além do MAPE, a análise visual dos gráficos é fundamental para ava
 * **Leo Michel**
 * **Lucas Dias**
 * **Luzia Souza**
+* **Lucas Sabino**
+  
 ## Links:
 
 
